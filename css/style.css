@@ -1,0 +1,67 @@
+
+table {
+    margin: auto;
+    width: 50%;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+
+div {
+    
+    border-radius: 10px;
+    width: auto;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.column1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+       
+}
+
+.row {
+    display: flex;
+    
+    
+}
+
+.Tools,
+.Contacts,
+.Language,
+.Certifications,
+.photo
+{
+    background-color: rgba(255, 166, 0, 0.089);
+    margin: 5px;
+}
+
+.Summary,
+.Work,
+.Education,
+.Fio
+ {
+    background-color: rgba(255, 166, 0, 0.041);
+    margin: 5px;
+}
+.photo {
+    text-align: center;
+    }
+img {
+    background-size: cover;
+    border-radius: 50%;
+}
+@media (max-width: 800px) {
+    .row {
+      flex-direction: column;
+    }
+  }
